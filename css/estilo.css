@@ -1,0 +1,136 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: Apple Chancery, cursive;
+	background-image: url(../imagens/fundo2.jpg);
+}
+
+#topo{
+	border: 2px solid black;
+	color: white;
+	background-color: blueviolet;
+	text-align: center;
+}
+
+/*	BUSCAR	*/
+
+#campo-busca{
+	margin: 1%;
+	
+}
+
+#botao-pesquisa{
+	color: #fff;
+	background-color: #f79300;
+	background: linear-gradient(to bottom, #faa600, #f68a00);
+	border: 2px solid #db7d00;
+	cursor: pointer;
+	padding: 0.65% ;
+	width: 8%;
+
+}
+
+#buscar{
+	width: 15%;
+	padding-left: 2.5%;
+	background-image: url(../imagens/lupa.png);
+	background-position: 2% 50%;
+}
+
+/*	FORMULARIO  */
+
+
+
+#formulario{
+	height: 50%;
+	width: 35%;
+	background-color: rgba(255, 255, 255, 0.3);
+	border-radius: 8%;
+	margin: auto 1%;
+	text-align: center;
+	padding-bottom: 2.5%;
+}
+
+
+
+input{
+	height: 35px;
+	width: 80%;
+	font-size: 100%;
+	background-color: #fff;
+	padding-left: 8.5%;
+	border: none;
+	background-repeat: no-repeat;
+
+
+}		
+
+.botao{
+	color: #fff;
+	background-color: green;
+	background: linear-gradient(to bottom, #faa600, #f68a00);
+	border: 2px solid #db7d00;
+	cursor: pointer;
+	padding: 1.5% ;
+	width: 30%;
+	text-decoration: none;
+}
+
+
+.titulo-formulario{
+	float: left;
+	margin-left: 7.5%;
+	margin-top: 7.5%;
+
+}
+
+#telefone{
+	margin-bottom: 7.5%;
+	background-image: url(../imagens/telefone.png);
+	background-position: 2.5% 50%;
+
+}
+
+#name{
+	background-image: url(../imagens/avatar.png);
+	background-position: 2.5% 50%;
+
+}
+
+#formulario{
+	float: left;
+}
+
+/*	TABELA	*/
+
+
+table{
+	background-color: white;
+	border-collapse: collapse;
+	margin: 0 auto;
+}
+
+th{
+	padding: 1% 10px;
+	background-color: blueviolet;
+	color:white ;
+	border: 1px solid black;
+	
+}
+
+td{
+	border: 1px solid black;
+	text-align: center;
+	margin: 1% 10%;
+	
+}
+
+/*	-------------------	*/
+
+
+
+
+

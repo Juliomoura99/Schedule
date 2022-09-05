@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	
+	<title>Schedule - Júlio Moura</title>
+
+	<link rel="stylesheet" href="css/estilo.css">
+	<script src="agenda.js"></script>
+
+</head>
+
+<body>
+
+	<div id="topo">
+		<h1>SCHEDULE BY JÚLIO MOURA</h1>
+		
+	</div>
+	
+	<div id="campo-busca">
+			<input id="buscar" type="text" name="buscar" placeholder="Enter a name">
+			<button id="botao-pesquisa" onclick="info.buscar()">Search</button>
+			
+	</div>
+	
+
+	<div id="formulario">
+
+			<form autocomplete="off" onsubmit = "return false">
+					
+					<div>
+						<h4 class="titulo-formulario">Name:</h4>
+						<input id="name" type="text" name="name" placeholder="Type your name">
+					</div>
+	
+					<div>
+						<h4 class="titulo-formulario">Phone:</h4>
+						<input id="telefone" type="number" name="telefone" placeholder="Type your phone">
+					</div>
+	
+					<div>
+						<button class="botao" onclick="info.salvar()">Save</button>
+						
+					</div>
+	
+			</form>
+		
+		</div>
+
+		
+
+		<div>
+	
+				<table id="tabela">
+					<thead>
+						<tr>
+							
+							<th>ID</th>
+							<th>Name</th>
+							<th>Phone</th>
+							<th id="delete">#</th>
+						</tr>
+					</thead>
+	
+					<tbody id="tbody">
+					
+					</tbody>
+	
+				
+				</table>
+	
+		</div>
+
+		
+
+</body>
+</html>
